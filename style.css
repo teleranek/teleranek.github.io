@@ -1,0 +1,54 @@
+#status {
+	font-size:30px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #eee;
+}
+#file-input {
+	font-size:30px;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #ddd;
+}
+#result {
+	font-size:30px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #e33;
+}
+#preview {
+	max-width: 800px;
+}
+body {
+	background-color: #222;
+	margin:20px;
+}
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #cf0;
+}
+
+#continuous-label {
+	color: #bbb;
+	font-size: 20px;
+}
+
+#capture {
+	display: block;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+}
+
+#progress {
+  width: 100%;
+  background-color: #ccc;
+  display: none;
+  border-width: 0px;
+  border-color: #eee;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+#progressBar {
+  width: 1%;
+  height: 30px;
+  background-color: #222;
+}
