@@ -52,3 +52,15 @@ h1 {
   height: 30px;
   background-color: #222;
 }
+
+#webcam {
+	display: none;
+}
+
+#detect-webcam {
+	display: block;
+	width: 400px;
+	height: 50px;
+	font-size: 20px;
+	margin-top: 10px;
+}
