@@ -1,16 +1,13 @@
 #status {
-	font-size:30px;
-	font-family: Helvetica, Arial, sans-serif;
 	color: #eee;
 }
 #file-input {
-	font-size:30px;
-	font-family: Helvetica, Arial, sans-serif;
 	background-color: #ddd;
+	height: 50px;
+	width: 100%;
+	font-size: 30px;
 }
 #result {
-	font-size:30px;
-	font-family: Helvetica, Arial, sans-serif;
 	color: #e33;
 }
 #preview {
@@ -19,19 +16,38 @@
 body {
 	background-color: #222;
 	margin:20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:30px;
 }
 h1 {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #cf0;
 }
 
+#videoDiv {
+	width: 100%;
+	text-align: center;
+}
+
+#videoButtonsDiv {
+	width: 100%;
+}
+
+#contContainer {
+	float: right;
+}
+
 #continuous-label {
 	color: #bbb;
-	font-size: 20px;
+	margin-top: 50px;
+}
+
+#continuous {
+	transform: scale(2);
+	margin: 5px;
 }
 
 #capture {
-	display: block;
 	width: 200px;
 	height: 50px;
 	font-size: 20px;
@@ -62,5 +78,5 @@ h1 {
 	width: 400px;
 	height: 50px;
 	font-size: 20px;
-	margin-top: 10px;
+	margin-top: 40px;
 }

@@ -16,9 +16,15 @@
   <img id="preview"></img>
   <div id="result"> </div>
   <div id="webcam">
-  	<video width="640" height="480" autoplay></video>
-  	<button id="capture">KAPCZER</button>
-  	<input type="checkbox" id="continuous" value="continuous"><span id="continuous-label">Continuous detection</span></input>
+  	<div id="videoDiv">
+  		<video width="640" height="480" autoplay playsinline></video>
+  	</div>
+  	<div id="videoButtonsDiv">
+  			<button id="capture">KAPCZER</button>
+  			<span id="contContainer">
+  					<input type="checkbox" id="continuous" value="continuous"><span id="continuous-label">Continuous detection</span>
+  			</span>
+  	</div>
   </div>
   <button id="detect-webcam">DETECT FROM WEBCAM</button>
 </body>
