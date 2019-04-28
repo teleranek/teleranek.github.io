@@ -16,6 +16,7 @@ Initialize library:
 ```javascript
 let nsfw = new NSFWLib(true);
 ```
+`true` indicates that we will use `nsfw_cacher.js` file, that needs to be put where `index.html` resides.
 
 For monitoring load progress:
 1. Add progress bar and percent info box:
