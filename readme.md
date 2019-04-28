@@ -1,4 +1,4 @@
-NSFW library - usage
+# NSFW library - usage
 
 In HTML, import library:
 
@@ -25,8 +25,7 @@ For monitoring load progress:
 	<div id="progressBar"></div>
 </div>
 ```
-
-Now you can set loading progress handler to indicate how much everything's loaded:
+2. Now you can set loading progress handler to indicate how much everything's loaded:
 ```javascript
 nsfw.setLoadProgressHandler(function (perc) {
 	let percentage = perc + "%";
