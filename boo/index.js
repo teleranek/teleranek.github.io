@@ -32,7 +32,7 @@ const SMOOTHING = 2//0.5 <= this is for tanh version
 const THRESHOLD = 0.05; // ignore scores abs < THRESHOLD
 
 const USE_PUBLIC_PROXY = false;
-const PROXY = 'http://boo.teleranek.org';
+const PROXY = 'https://boo.teleranek.org';
 // const PROXY = 'http://localhost:3001';
 // const PROXY = 'https://api.cors.lol/?url=';
 
